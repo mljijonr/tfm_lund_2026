@@ -113,6 +113,8 @@ tfm_lund_2026/
 └── data/
     # Raw input datasets (not included in repository)
     
+---
+
 # Data Sources
 
 All data originate from the Instituto Nacional de Estadística y Censos (INEC), Ecuador.
