@@ -77,44 +77,6 @@ The results suggest that:
 
 These findings highlight the importance of local governance quality in public health outcomes.
 
----
-
-# Repository Structure
-
-```text
-tfm_lund_2026/
-│
-├── README.md
-│
-├── WGI_calculation.R
-│   # Constructs Water Governance Index (PCA + dimensions)
-│
-├── hospitalizations_construction.R
-│   # Builds gastrointestinal hospitalization panel dataset
-│
-├── Negative Binomial FE Analysis.R
-│   # Main econometric estimations
-│
-├── hosp_cardiac_check.R
-│   # Placebo analysis using cardiovascular hospitalizations
-│
-├── canton_lookup.csv
-│   # Canton identifiers and matching table
-│
-├── WGI_Panel_Long_2018_2024.csv
-│   # Generated WGI panel dataset
-│
-├── egresos_gastro_panel_2018_2024.csv
-│   # Gastrointestinal hospitalization panel
-│
-├── egresos_cardio_panel_2018_2024.csv
-│   # Cardiovascular hospitalization panel
-│
-└── data/
-    # Raw input datasets (not included in repository)
-    
----
-
 # Data Sources
 
 All data originate from the Instituto Nacional de Estadística y Censos (INEC), Ecuador.
@@ -190,6 +152,44 @@ lmtest
 readr
 dplyr
 ggplot2
+
+---
+
+# Repository Structure
+
+```text
+tfm_lund_2026/
+│
+├── README.md
+│
+├── WGI_calculation.R
+│   # Constructs Water Governance Index (PCA + dimensions)
+│
+├── hospitalizations_construction.R
+│   # Builds gastrointestinal hospitalization panel dataset
+│
+├── Negative Binomial FE Analysis.R
+│   # Main econometric estimations
+│
+├── hosp_cardiac_check.R
+│   # Placebo analysis using cardiovascular hospitalizations
+│
+├── canton_lookup.csv
+│   # Canton identifiers and matching table
+│
+├── WGI_Panel_Long_2018_2024.csv
+│   # Generated WGI panel dataset
+│
+├── egresos_gastro_panel_2018_2024.csv
+│   # Gastrointestinal hospitalization panel
+│
+├── egresos_cardio_panel_2018_2024.csv
+│   # Cardiovascular hospitalization panel
+│
+└── data/
+    # Raw input datasets (not included in repository)
+    
+
 
 
 
